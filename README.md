@@ -72,8 +72,6 @@ systemctl enable --now postgresql.service
 
 ### Настройка серверной части bacula
 
-###
-
 1. Установка необходимых пакетов
 
    ```bash
@@ -97,7 +95,6 @@ systemctl enable --now postgresql.service
 
 ::: error
 Если не установить postgresql-contrib то тут посыпятся ошибки
-
 :::
 
 1. Установим права для пользователя bacula
@@ -107,8 +104,6 @@ systemctl enable --now postgresql.service
    ```
 
 ### Настройка конфигурационных файлов для работы bacula
-
-#####
 
 1. Задаем пароль для доступа диреектора к БД (/etc/bacula/bacula-dir.conf)
 
