@@ -1,4 +1,4 @@
-# bacula15
+# bacula15 ALTLinux
 bacula15+baculum15 - postgresql17 - settings
 
 ### Настройка и  запуск postgresql
