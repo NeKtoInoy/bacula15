@@ -282,3 +282,8 @@ No Jobs running.
 Terminated Jobs:
 ====
 ```
+
+# Настройка Клиента
+```
+
+```
