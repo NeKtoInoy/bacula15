@@ -1,0 +1,18 @@
+Director {
+  Name = dir
+@/etc/bacula/bacula-fd-password.conf
+
+}
+FileDaemon {                          # this is me
+  Name = fd
+  FDport = 9102                  # where we listen for the director
+  WorkingDirectory = /var/lib/bacula
+  Pid Directory = /var/run/bacula
+  Maximum Concurrent Jobs = 20
+}
+
+Messages {
+  Name = Standard
+  director = dir = all, !skipped, !restored
+  Catalog = all, !debug, !skipped, !saved
+}
